@@ -34,3 +34,4 @@ A few projects seem to excist. these may help a bit with touching the cpu.
     - https://web.archive.org/web/19990429113602/http://www.mot.com/SPS/RISC/netcomm/tools/thirdpty/302.html#swchip
 
 - Old devboard for sale https://www.artisantg.com/Embedded/62472-2/Emerson-Motorola-M68302ADS-Application-Development-System-VME-Board
+- Another one for sale, with manual and closeup https://www.ricardo.ch/de/a/vintage-motorola-m68302-sdk-(komunikation)-1213043282/
