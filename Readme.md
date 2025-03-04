@@ -25,6 +25,8 @@ A few projects seem to excist. these may help a bit with touching the cpu.
   https://github.com/Plasmode/Tiny302
 - Kicad designs for a "MC68302-based CPU card and backplane system " 
   https://github.com/kvanderlaag/malebolge
+- Musashi is an Motorola 680x0 emulator, might be intresting, but probably not compatible as-is
+  https://github.com/kstenerud/Musashi.git
 
 - official old resources:
     - https://web.archive.org/web/19990429172627/http://www.mot.com/SPS/RISC/netcomm/prod/3XX/68302.html
