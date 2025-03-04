@@ -1,4 +1,4 @@
-# Military Radio PCB Analysis
+# MC68302 (Military) Radio PCB Analysis
 
 This repository contains all my notes, code dumps, and analysis of an old military PCB, likely a radio transceiver board.
 
