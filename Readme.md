@@ -38,14 +38,17 @@ possibly opensource new code in seperate repositories. same for emulation.
 
 A few projects seem to excist. these may help a bit with touching the cpu.
 
-- Tiny302, a minimalist singleboard computer based on the MC68302, the thread it links to seems dead.
-  https://github.com/Plasmode/Tiny302
 - Kicad designs for a "MC68302-based CPU card and backplane system " 
   https://github.com/kvanderlaag/malebolge
 - Musashi is an Motorola 680x0 emulator, might be intresting, but probably not compatible as-is
   https://github.com/kstenerud/Musashi.git
 - ADC SPX-MPU board, over at retrobrewcomputers, with software and mods. 
   https://www.retrobrewcomputers.org/doku.php?id=builderpages:plasmo:spx-mpu
+    - This is the same, but more resources
+      https://hackaday.io/project/28504-reverse-engineering-soneplex-spx-mpu-sbc
+- Tiny302, a minimalist singleboard computer based on the MC68302, the thread it links to seems dead.
+  https://github.com/Plasmode/Tiny302
+    - https://hackaday.io/project/29476-tiny302
 
 - official old resources:
     - https://web.archive.org/web/19990429172627/http://www.mot.com/SPS/RISC/netcomm/prod/3XX/68302.html
