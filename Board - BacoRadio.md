@@ -1,9 +1,11 @@
-# Overal board parts, details, notes
+# BacoRadio
+
+## Overal board parts, details, notes
 
 Rectangle, green pcb with 8 white standoffs, a Eurocard female angled socket and 4 empty ram slots.
 When I bought it, there was 1 ramslot filled with an odd kind of ram. I may have lost it since.
 
-## Roms
+### Roms
 
 2 roms, A and I believe B, the second rom, the apparently larger one is missing its protective film, I also believe i might have removed that at one point and placed protective stickers over teh window later.
 
@@ -29,7 +31,7 @@ minipro -p 27C220@DIP40 -r NVN5001B-3.bin
 ```
 adapt where needed.
 
-### Rom1: NVN5001A
+#### Rom1: NVN5001A
 md5: 5d49883c1678ae50e49aea976533d56f
 
 ``oCypirhg t9109 ,oMotoral ,nI.cA
@@ -41,7 +43,7 @@ Due to the m68k being Big endian, we swap each byte. Cause the most significant 
 All rights reserved.``
 
 
-### Rom2: NVN5001B
+#### Rom2: NVN5001B
 md5: 78fb960c40e1a57677377955cf3e1e37
 
 ``oCypirhg t91091-99,4M torolo,aI cn
@@ -52,14 +54,14 @@ Due to the m68k being Big endian, we swap each byte. Cause the most significant 
 ``Copyright 1991-1994, Motorola, Inc.
 All rights reserved.``
 
-## Leds
+### Leds
 
 3 leds are onboard,
 - CR5, green
 - CR6, green
 - CR7, red
 
-## Jumpers
+### Jumpers
 
 2 jumper areas:
 
@@ -70,9 +72,9 @@ All rights reserved.``
     - 1 jumper on 5-6
 
 
-## IC
+### IC
 
-### MC68302CFE16 (Motorola)
+#### MC68302CFE16 (Motorola)
 
 According to a datasheet from now MXP, it's a Motorola's mc68302 integrated multi-protocol processor.
 
@@ -89,29 +91,29 @@ microprocessor core, a system integration block (SIB), and a communications proc
 https://www.nxp.com/docs/en/fact-sheet/MC68302FACT.pdf
 
 
-### MT8981DP 
+#### MT8981DP 
 
-### XC68SEC811E2FN (Motorola)
+#### XC68SEC811E2FN (Motorola)
 
-### 515662U96 (Motorola)
+#### 515662U96 (Motorola)
 
-### XC145532L
+#### XC145532L
 
-### 73K222L-IP / NRN8440A
+#### 73K222L-IP / NRN8440A
 
-## PCB markings
+### PCB markings
 
-## Stickers
+### Stickers
 
-### Gray bottom
+#### Gray bottom
 
-### White small bottom
+#### White small bottom
 
-### White small top left
+#### White small top left
 
 
 
-### White small top right
+#### White small top right
 
 "pass" "B"
 

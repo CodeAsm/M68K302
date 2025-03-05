@@ -1,6 +1,6 @@
-# MC68302 (Military) Radio PCB Analysis
+# MC68302 
 
-This repository contains all my notes, code dumps, and analysis of an old military PCB, likely a radio transceiver board.
+This repository contains all my notes, code dumps, and analysis of various boards that have this or very familiar ic.
 
 ## Contents
 
@@ -10,12 +10,29 @@ This repository contains all my notes, code dumps, and analysis of an old milita
 
 ## Purpose
 
-The goal of this project is to reverse engineer and understand the workings of the military radio transceiver board.
-Probably not in full, but well enough to tease my brain.
+The goal of this project is to reverse engineer and understand the workings of the various boards that contain amoung others, a MC68302 cpu/mpu. Probably not in full, but well enough to tease my brain.
+
+### BacoRadio (Military?) Radio PCB Analysis
+
+This board was bought second hand at a army dump/surplus store, code dumps, and analysis of an old military(?) PCB, likely a radio transceiver board will be filled under BacoRadio.
+
+TODO:
+- Finish documenting board
+- More Pictures
+
+### KPN Comms card
+
+A possibly internal connection card from local national telco KPN system board with serialport, leds, optical transceifer and a few bus connectors at the back. 
+
+TODO:
+- Dump all roms
+- Document board
+- Pictures
 
 ## Disclaimer
 
-This project is for educational purposes only. Any sensitive information has been redacted.
+This project is for educational purposes only. Any sensitive information has been redacted. Copyright remains with whoevery claimed.
+possibly opensource new code in seperate repositories. same for emulation.
 
 ## Further resources
 
@@ -27,6 +44,8 @@ A few projects seem to excist. these may help a bit with touching the cpu.
   https://github.com/kvanderlaag/malebolge
 - Musashi is an Motorola 680x0 emulator, might be intresting, but probably not compatible as-is
   https://github.com/kstenerud/Musashi.git
+- ADC SPX-MPU board, over at retrobrewcomputers, with software and mods. 
+  https://www.retrobrewcomputers.org/doku.php?id=builderpages:plasmo:spx-mpu
 
 - official old resources:
     - https://web.archive.org/web/19990429172627/http://www.mot.com/SPS/RISC/netcomm/prod/3XX/68302.html
