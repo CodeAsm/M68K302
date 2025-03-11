@@ -5,6 +5,8 @@
 Rectangle, green pcb with 8 white standoffs, a Eurocard female angled socket and 4 empty ram slots.
 When I bought it, there was 1 ramslot filled with an odd kind of ram. I may have lost it since.
 
+update 11 march 2025, found a ram stick that fits and looks somewhat like i remmeber. the two stickers on its back match the shape of the other mainboard stickers.
+
 ### Roms
 
 2 roms, A and I believe B, the second rom, the apparently larger one is missing its protective film, I also believe i might have removed that at one point and placed protective stickers over teh window later.
@@ -92,6 +94,7 @@ https://www.nxp.com/docs/en/fact-sheet/MC68302FACT.pdf
 
 
 #### MT8981DP 
+Digital switch, switching PCM-encoded voice or data, under microprocessor control, in a modern digital exchange, PBX or Central Office.
 
 #### XC68SEC811E2FN (Motorola)
 
@@ -100,6 +103,76 @@ https://www.nxp.com/docs/en/fact-sheet/MC68302FACT.pdf
 #### XC145532L
 
 #### 73K222L-IP / NRN8440A
+
+#### 2931C (U22)
+LDO Voltage Regulator -
+Adjustable Output, Load
+Dump Protection
+60 V, 100 mA
+
+Goes to A31, B31, C31. standby power supply?
+
+#### LM2935T (U40, U15)
+
+a 5 pinned Low dropout dual voltage regulator.
+Main is 750mA and can be turned on or of. ythe standby one is up to 10mA for ram for example
+
+"This part was designed for harsh automotive environments and is
+therefore immune to many input supply voltage problems such as reverse
+battery (–12 V), double battery (+24 V), and load dump transients (+60 V)."
+
+Square pad is pin 1 on the board. on the part, the left side when looking with legs below and label top.
+the Motorola side.
+
+1 Input
+2 Main output
+3 ground
+4 Switch/Reset
+5 Standby/Output
+
+### DIN41612
+Eurocard connector, female, angeled.
+96 pins
+
+
+| Pin Number | A   | Name   | Note    | B   | Name   | Note    | C   | Name   | Note    |
+|------------|-----|--------|---------|-----|--------|---------|-----|--------|---------|
+| 1          | VCC | input  |         | GND | ground |         | VCC | input  |         |
+| 2          |     |        |         | VCC | input  |         | VCC | input  |         |
+| 3          | GND | ground |         | GND | ground |         |     |        |         |
+| 4          |     |        |         | VCC | input  |         | GND | ground |         |
+| 5          | GND | ground |         | GND | ground |         |     |        |         |
+| 6          |     |        |         | VCC | input  |         | GND | ground |         |
+| 7          | VCC | input  |         | GND | ground |         | VCC | input  |         |
+| 8          |     |        |         | VCC | input  |         |     |        |         |
+| 9          | VCC | input  |         | GND | ground |         | GND | ground |         |
+| 10         | GND | ground |         | VCC | input  |         |     |        |         |
+| 11         |     |        |         | GND | ground |         | VCC | input  |         |
+| 12         | GND | ground |         | VCC | input  |         |     |        |         |
+| 13         | VCC | input  |         | GND | ground |         | VCC | input  |         |
+| 14         |     |        |         | VCC | input  |         | GND | ground |         |
+| 15         | GND | ground |         | GND | ground |         |     |        |         |
+| 16         |     |        |         | VCC | input  |         |     |        |         |
+| 17         |     |        |         | GND | ground |         |     |        |         |
+| 18         | GND | ground |         | VCC | input  |         | GND | ground |         |
+| 19         | VCC | input  |         | GND | ground |         |     |        |         |
+| 20         |     |        |         | VCC | input  |         | VCC | input  |         |
+| 21         | GND | ground |         | GND | ground |         |     |        |         |
+| 22         |     |        |         | VCC | input  |         | GND | ground |         |
+| 23         | VCC | input  |         | GND | ground |         | GND | ground |         |
+| 24         |     |        |         | VCC | input  |         |     |        |         |
+| 25         |     |        |         | GND | ground |         |     |        |         |
+| 26         |     |        |         | VCC | input  |         |     |        |         |
+| 27         |     |        |         | GND | ground |         |     |        |         |
+| 28         | GND | ground |         | VCC | input  |         | GND | ground |         |
+| 29         |     |        |         | GND | ground |         |     |        |         |
+| 30         | GND | ground |         | GND | ground |         | GND | ground |         |
+| 31         |     |        | U22     |     |        | U22     |     |        | U22     |
+| 32         | GND | ground |         | GND | ground |         | GND | ground |         |
+
+
+
+
 
 ### PCB markings
 
@@ -132,3 +205,32 @@ datecode 9149
 ### Radio pcb 1
 
 ### Radio pcb 2
+
+### Ram stick
+
+rectangled green 2 layer pcb. copper layer back sais:
+COPYRIGHT MOTOROLA 1990
+84D05016W01 REV A
+
+top left sticker:
+NVN4004A
+9150 MALYSIA
+
+below top left sticker:
+PASS
+
+Front side silkscreen:
+1566, HI -1, [E] 94V-0
+U101 to U104
+C101 to C104
+Front side IC (times 4):
+MCM60L256AFC10
+HIQA A9144
+
+#### MCM60L256AFC10
+
+Motorola 32K x 8 Bit CMOS Static Random Access Memory
+5V supply, TTL compatible, 100ns memory.
+
+128K total.
+
